@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Етноси в България</title>
+    <link rel="icon" type="image/ico" href="images/2els.ico">
+    <link rel="stylesheet" href="homePage.css">
+    <script defer src="homePage.js" type="module"></script>
+    <script src="/__/firebase/8.6.4/firebase-app.js"></script>
+    <script src="/__/firebase/8.6.4/firebase-analytics.js"></script>
+    <script src="/__/firebase/init.js"></script>
+</head>
+<body>
+    <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+
+    <div style="visibility:hidden" class="scrollMenu">
+        <div class="scrollTo"><a href="#parallax1">Проект</a></div>
+        <div class="scrollTo"><a href="#parallax2">Карта</a></div>
+        <div class="scrollTo"><a href="#parallax3">Видеа на 3D модели</a></div>
+        <div class="scrollTo"><a href="#parallax4">Информация</a></div>
+        <div class="scrollTo"><a href="#parallax5">София, Пирин и Родопите</a></div>
+    </div>
+
+
+    <div id="parallax1" class="parallax">
+        <div id="projectContainer">
+            <p class="projectTitle">
+                Проект „ МОБИЛНОСТ ЗА ОБАЗОВАНИЕ, СЪТРУДНИЧЕСТВО И ТВОРЧЕСТВО - МОСТ”, 
+                <br>
+                изпълнен с финансовата подкрепата на Центъра за образователна интеграция на деца и ученици от етническите малцинства,
+                <br>
+                Договор № БС33.19-3-002/ 29.09. 2020 г.
+                <br>
+                Партньор – Втора Английска езикова гимназия „ Т. Джеферсън“ – гр. София
+            </p>
+            <img class="AEGLogo" src="images/2els.png" alt="2AEG">
+            <div class="projectName">
+                <p>
+                    ИНФОРМАЦИОНЕН КЛУБ ,,ДИГИТАЛНО СТУДИО“
+                </p>
+                <p id="projectYear">
+                    2020/2021 УЧЕБНА ГОДИНА
+                </p>
+            </div>
+                <br>
+                <br>
+                <br>
+                <br>
+            <div class="projectRest">
+                <p id="projectLeader">
+                    Ръководител: Aнета Кирилова Кинева							 
+                </p>
+                <p>
+                    Директор, ръководител на проекта: МЕХМЕД ИМАМОВ 
+                    <br>
+                    СРЕДНО УЧИЛИЩЕ “СВ. ПАИСИЙ ХИЛЕНДАРСКИ“
+                    <br>
+                    2932, С. Абланица, общ. Хаджидимово, обл. Благоевград, ул. „Христо Ботев“ №1,
+                    <br>
+                    тел: 0893 60 52 47, 0892 60 20 57e-mail: souablanica@abv.bg,suablanica@abv.bg
+                </p>
+                <br>
+                <p>
+                    Настоящият документ е изготвен с финансовата помощ на Центъра за образователна интеграция на децата и учениците от етническите малцинства (ЦОИДУЕМ) и Бенефициерът носи цялата отговорност 
+                    за съдържанието на настоящия документ и при никакви обстоятелства не може да се приеме като официална позиция на Министерство на образованието и науката и ЦОИДУЕМ“.
+                </p>
+            </div>
+            <img class="upperImages" id="upperImage1" src="images/ablanitsaSchool.png" alt="Средно училище Св. Паисий Хилендарски">
+            <img class="upperImages" id="upperImage2" src="images/inovative_school.png" alt="inovative_school">
+            <img class="lowerImage" src="images/ЦОИДУЕМ.png" alt="ЦОИДУЕМ">
+        </div>
+
+
+
+    </div>
+            <div class="betweenParallax">            
+                В „Дигитално студио“ изработихме електронна карта с отбелязани територии, населявани от етнически групи;
+            </div>
+    <div id="parallax2" class="parallax">
+        <a id="toMap" href="Map/map.html">
+            <img id="imgToMap" src="images/bgmap.png" alt="Карта на България">
+        </a>
+    </div>
+            <div class="betweenParallax">
+                В „Дигитално студио“ изработихме интерактивни мултимедийни продукти чрез общоприложими програми, отразяващи историческите и културни забележителности чрез виртуално пътуване, както и дигитално представяне на традициите и обичаите на различните етноси в България. 
+            </div>
+    <div id="parallax3" class="parallax">
+        <div id="videosContainer">
+            <video class="modelVideos" loop playsinline id="modelVideo0" src="videos/Armenka.mp4"></video>
+            <video class="modelVideos" loop playsinline id="modelVideo1" src="videos/BGnosiq.mp4"></video>
+            <video class="modelVideos" loop playsinline id="modelVideo2" src="videos/Evrein.mp4"></video>
+            <video class="modelVideos" loop playsinline id="modelVideo3" src="videos/Rom.mp4"></video>
+            <video class="modelVideos" loop playsinline id="modelVideo4" src="videos/turska nosiq.mp4"></video>
+        </div>
+    </div>
+            <div class="betweenParallax">
+                Етности в България - информация
+            </div>
+    <div id="parallax4" class="parallax">
+        <div id="infoContainer">
+            <div id="infoArrowLeft"></div>
+              <div class="textBox" id="text1">
+                Българи<br>
+                Според най-разпространената теория българската народност се формира в резултат на сливането на три племенни общности на Балканския полуостров в периода V-X век-траки, славяни и прабългари.
+                Генетично, днешните българи са по-тясно свързани със съседните балкански популации (македонци, сърби, румънци, гърци и албанци), отколкото с останалите европейци. 
+                Българите се различават в доста по-висока степен от днешните обитатели на Близкия, Средния Изток и Северна Африка, отколкото от тези на Европа.
+              </div>
+              <div class="textBox" id="text2">
+                Евреи<br>
+                Евреите се заселват в Европа, като този процес се засилва особено след IV век. Църквата успява да привлече в лоното си всички европейци едва през IX век, като налага каноничното право сред европейските народи.
+                Съдбата на евреите е различна в различните европейски страни и често зависи от конюнктурна политика. В повечето страни евреите живеят в мир, но не след дълго все повече проблеми създава тяхното нежелание да се покръстят и да изповядват християнството. 
+                През XIII век евреите са обвинени за нашествието на монголските орди. 100 години по-късно евреите са обвинени за чумата, обхванала континента. През 1394 г. те са изгонени от Франция. 
+                Със себе си евреите донасят и немския език, който продължават да използват и до днес (идиш).
+              </div>
+              <div class="textBox" id="text3">
+                Турци<br>
+                Турците започват да се заселват по българските земи, непосредствено с падането на България под османско робствопрез1396г. Българските градове се изпълват с разнородно по етнически състав население.
+                Доминиращи етноси са българи и турци. 
+                Етноси арменци, гърци, евреи, власи. Това показва относителният дял на турското и българското население през този период, който след Освобождението много бързо се изменя.
+                В Княжеството пък се заселват българи от останалите под турско робство български земи, така че постоянно намаляващото турско население се компенсира с пристигащото българско. Така за няколко години, съотношението българи-турци от 1878 г. драстично се променя в полза на българският етнос.
+              </div>
+              <div class="textBox" id="text4">
+                Арменци<br>
+                За първите преселници от Армения в българските земи се споменава V век. Второто преселение е през VII –IX век в Тракия. За първите арменци, заселили се в селището Бургас, се споменава през 1549 г. 
+                Близо 22 000 арменци намират спасение по време на депортацията на арменците в България
+                Арменците участват като доброволци във войните за Освобождението на България.
+              </div>
+              <div class="textBox" id="text5">
+                Роми<br>
+                В България циганските общности се делят на три основни  -йерлии, кардараши и рудари. 
+                Циганските групи имат консервативен характер.
+                В големите многочислени уседнали цигански общности границите между групите са отстъпили място на цялостно циганско самосъзнание.
+                В тези нововъзникнали общности част от предишните норми на живот и поведение са отпаднали, напр. „мешарето", други обаче продължават
+                да съществуват: купуването на булката, ендогамия, чистота на кръвта, ранна женитба под влияние на родителите, девственост на булката и др.
+              </div>
+            <div id="infoArrowRight"></div>
+        </div>
+
+        <div class="navBarButtons">
+            <button class="btnForText" id="btn1"><div class="circle"></div></button>
+            <button class="btnForText" id="btn2"><div class="circle"></div></button>
+            <button class="btnForText" id="btn3"><div class="circle"></div></button>
+            <button class="btnForText" id="btn4"><div class="circle"></div></button>
+            <button class="btnForText" id="btn5"><div class="circle"></div></button>
+        </div>
+    </div>
+            <div class="betweenParallax">
+                В „Дигитално студио“  изработихме видео клип, отразяващ културно – историческите забележителности в София и Родопите.
+            </div>
+    <div id="parallax5" class="parallax">
+        <div class="videosContainer2">
+            <div class="videoHolder" id="video1"><video src="videos/S&P&R/Teamwork.mp4"></video></div>
+            <div class="videoHolder" id="video2"><video src="videos/S&P&R/FilmMaker.MOV"></video></div>
+            <div class="videoHolder" id="video3"><video src="videos/S&P&R/VideoShow.mp4"></video></div>
+            <div class="videoHolder" id="video4"><video src="videos/S&P&R/Rodopi & Pirin.mp4"></video></div>
+            <div class="videoHolder" id="video5"><video src="videos/S&P&R/Rodopi.mp4"></video></div>
+            <div class="videoHolder replace" id="video14"><video src="videos/S&P&R/Sofia s musika.mp4"></video></div>
+            <div class="videoHolder replace" id="video6"><video src="videos/S&P&R/Rodopi & Pirin (2).mp4"></video></div>
+            <div class="videoHolder" id="video7"><video src="videos/S&P&R/Rodopi & Pirin (3).mp4"></video></div>
+            <div class="videoHolder" id="video8"><video src="videos/S&P&R/Rodopi & Pirin (4).mp4"></video></div>
+            <div class="videoHolder" id="video9"><video src="videos/S&P&R/Rodopi (2).mp4"></video></div>
+            <div class="videoHolder" id="video10"><video src="videos/S&P&R/Sofia & Rodopi.MOV"></video></div>
+            <div class="videoHolder" id="video11"><video src="videos/S&P&R/Sofia (1).MOV"></video></div>
+            <div class="videoHolder replace" id="video12"><video src="videos/S&P&R/Sofia (2).mp4"></video></div>
+            <div class="videoHolder replace" id="video13"><video src="videos/S&P&R/Sofia (3).mp4"></video></div>
+            <div class="videoHolder" id="video15"><video src="videos/S&P&R/Sofia.mp4"></video></div>
+            <div class="videoHolder replace" id="video16"><video src="videos/S&P&R/Phone.mp4"></video></div>
+            <div class="videoHolder replace" id="video17"><video src="videos/S&P&R/TicToc.mp4"></video></div>     
+        </div>
+        <div id="currVideo">
+</div>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://i.pinimg.com/originals/07/64/ca/0764ca465c71b1585877f9a2ea71cf95.jpg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    user-select: none;
+}
+html {
+  box-sizing: border-box;
+}
+* {
+  user-select: none;
+}
+
+.text {
+    position: absolute;
+    background: white;
+    padding: 10px 10px 10px 10px;
+    max-width: 300px;
+    text-overflow: initial;
+    z-index: 1;
+    border: 3px solid black;
+    visibility: hidden;
+}
+#bgmap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index:0;
+    user-select: none;
+}
+#districtsMap {
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index:2;
+    user-select: none;
+}
+#exitBtn {
+    position: absolute;
+    right: 0; 
+    margin: 1.5vh;
+    max-height: 3vh;
+    height: 3vh;
+    max-width: 3vh;
+    width: 3vh;
+    visibility: hidden;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: transform .4s;
+}
+#exitBtn::after {
+    content: " ";
+    position: absolute;
+    height: 20%;
+    width: 70%;
+    top: 40%;
+    left: 15%;
+    background-color: white;
+    margin: auto;
+    transform: rotate(45deg);
+}
+#exitBtn::before {
+    content: " ";
+    margin: auto;
+    transform: rotate(45deg); 
+    position: absolute;
+    width: 20%;
+    height: 70%;
+    left: 40%;
+    top: 15%;
+    background-color: white;
+}
+
+
+#homePageLink {
+    position: absolute;
+}
+#backBtn {
+    position: absolute;
+    margin: 2vh;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    background-color: transparent;
+    z-index: 4;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+}
+#arrow {
+    position: relative;
+    transform: translateX(-25%);
+    height: 0;
+    width: 0;
+    border-bottom: 1.6vh solid transparent;
+    border-right: 1.6vh solid white;
+    border-top: 1.6vh solid transparent;
+    z-index: 5;
+}
+#backBtn:hover > #arrow {
+    animation-duration: 1s;
+    animation-name: arrowmove;
+    animation-iteration-count: infinite;
+}
+@keyframes arrowmove {
+    from {
+        transform: translateX(-20%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(-20%);
+    }
+}
+
+
+
+.lds-roller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000000000;
+  background-image: url("https://images.hdqwalls.com/download/simple-background-blur-xb-2560x1440.jpg");
+  background-size: cover;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 4px 20px;
+}
+.lds-roller div:after {
+  transform: translateX(300%);
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
