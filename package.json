@@ -1,0 +1,19 @@
+{
+    "name": "ablanitsa",
+    "version": "1.0.0",
+    "description": "Ethnic diversity project",
+    "main": "./public/index.html",
+    "author": {
+      "name": "BRISINGR-01",
+      "url": "https://github.com/BRISINGR-01"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BRISINGR-01/Ablanitsa"
+    },
+    "keywords": [
+      "three-js", 
+      "vanilla javascript", 
+      "firebase"
+    ]
+  }
