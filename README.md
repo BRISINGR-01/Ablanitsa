@@ -3,7 +3,7 @@
 This is part of the ethnic diversity cooperation project between Second English Language High School "Thomas Jefferson" and "St. Paisiy Hilendarski" School,
 made by the Information club "Digital Studio" in Second English Language High School.
 The aim of the project is to spread awareness concerning the ethnic diversity in Bulgaria as well as present some useful information concerning it.
-
+<br>
 The project is available at [https://ablanitsa-project.web.app](https://ablanitsa-project.web.app/).
 
 
@@ -27,5 +27,5 @@ Video clips with historical or cultural information concerning the areas surroun
 
 # Contributions
 
-Deyan Georgiev - 3D models
+Deyan Georgiev - 3D models<br>
 Students from the 9th grade in 2els - videos of Sofia, Pirin and Rodopi
