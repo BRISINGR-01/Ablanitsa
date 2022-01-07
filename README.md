@@ -13,19 +13,19 @@ This is a parallax frontend website built with vanilla javascript and for the 3D
 
 # Content
 
-Full information about the project
+- Full information about the project
 
-Map of Bulgaria divided into sections which:
+- Map of Bulgaria divided into sections which
   - upon hover reveal information about the main ethnicity of the area
   - on click opens the 3D playground with a loaded avatar weraing a traditional local dress
 
-Carousel showing traditional clothing which continues spinning depending on the speed of the mouse
+- Carousel showing traditional clothing which continues spinning depending on the speed of the mouse
 
-Information about the main ethnic groups
+- Information about the main ethnic groups
 
-Video clips with historical or cultural information concerning the areas surrounding Sofia or the mountains Pirin and Rodopi.
+- Video clips with historical or cultural information concerning the areas surrounding Sofia or the mountains Pirin and Rodopi.
 
 # Contributions
 
-Deyan Georgiev - 3D models<br>
-Students from the 9th grade in 2els - videos of Sofia, Pirin and Rodopi
+ - Deyan Georgiev - 3D models<br>
+ - Students from the 9th grade in 2els - videos of Sofia, Pirin and Rodopi
